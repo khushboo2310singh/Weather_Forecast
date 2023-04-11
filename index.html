@@ -232,7 +232,7 @@
                                 <div class="temp">Sunrise: <span>${(new Date(Number(data.sys.sunrise+"000")).toLocaleTimeString())}</span></p></div>
                                 <div class="temp">Sunset: <span>${(new Date(Number(data.sys.sunset+"000")).toLocaleTimeString())}</span></p></div>
                                 <div class="temp"><span>${data.weather[0].description}</span></div>
-                                <div class="temp"><span><img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"</span></div>
+                                <div class="temp"><span><img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"</span></div>
                         
                         </div>
                     </div>
@@ -285,7 +285,7 @@
                             
                             
                                 <div class="temp bd-none" style="line-height:70px"> ${data.list[i].weather[0].description}</div>
-                                <div class="temp bd-none"><span ><img src="http://openweathermap.org/img/wn/${data.list[i].weather[0].icon}@2x.png"></span></div>
+                                <div class="temp bd-none"><span ><img src="https://openweathermap.org/img/wn/${data.list[i].weather[0].icon}@2x.png"></span></div>
                             </div>
                             
 
@@ -310,7 +310,7 @@
             
             
         
-            fetch(`http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=f1174057e7968d649b0351cb0f0617e2`)
+            fetch(`https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=f1174057e7968d649b0351cb0f0617e2`)
 
             .then(i=>i.json())
             .then(data=>{
