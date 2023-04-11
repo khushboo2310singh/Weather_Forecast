@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcast</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="wrap-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 flex j-bet">
+                    <div>
+                        <h1>Weather <small>Forecast</small></h1>
+                        <div class="circle circle-t circle-p"></div>
+                    </div>
+                        
+                            <form action="." method="get" name="search">
+                                <input type="text" name="city_s" class="city_sh input-m" placeholder="Search city" tabindex="1" autocomplete="off">
+                                <span class="fa-solid fa-magnifying-glass"></span>
+                                <!-- <button type="submit" class="btn">Search</button> -->
+                            </form>
+                        
+                    </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrap-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-p-6">
+                    <!-- your current location temperature -->
+                   
+                </div>
+                <div class="col-8 col-p-6 align-center">
+                    <nav>
+                        <ul>
+                            <li><a class="active actv" href="#Today">Today</a></li>
+                            <li><a href="#5hours">5 Days</a></li>
+                            <li><a href="#AQI">AQI</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- <section > -->
+    <div class="wrap-3" id="Today">
+        <div class="container">
+            <div class="row">
+                    <div class=" wrap-3 col-12">
+                       
+                        <div class="wrap-3-inner inner-p inner-t"><h2>Check the daily weather - </h2><p class="p1"> Current temperature, Rainfall, Wind speed, Humidity, Pressure, Visibility, Air Quality and many more along with 5-days weather forecast.</p></div>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+    <!-- </section> -->
+    <!-- <section id="5hours"> -->
+    <div class="wrap-4" id="5hours">
+        <div class="container">
+            <div class="row">
+                
+                    <div class=" wrap-4 col-12"><!--12g-->
+                        <!-- 5hours interval temperature -->
+                    </div>                
+            </div>
+        </div>
+    </div>
+   
+    <div class="wrap-5" id="AQI">
+        <div class="container">
+            <div class="row">
+                
+                    <div class="wrap-5 col-12"><!--12e-->
+                        <!-- Air quality -->
+                    </div>
+                        
+                    
+            </div>
+        </div>
+    </div>
+    <!-- </section> -->
+    
+
+    <div class="wrap-6">
+        <div class="container">
+            <div class="row">
+                
+                    <div class="wrap-6 col-12"><!--12d-->
+                        <div class="wrap-6-inner">
+                            <h2>Air Quality Index</h2><p>The Air Quality Index is based on measurement of particulate matter (PM<sub>2.5</sub> and PM<sub>10</sub>), Ozone (O<sub>3</sub>), Nitrogen Dioxide (NO<sub>2</sub>), Sulfur Dioxide (SO<sub>2</sub>) and Carbon Monoxide (CO) emissions. Most of the stations on the map are monitoring both PM<sub>2.5</sub> and PM<sub>10</sub> data, but there are few exceptions where only PM<sub>10</sub> is available.</p>
+                        <div><h3>Pollution Level And Its Health Implication</h3>
+
+                        <div class="accordian">
+                            <a href="">Good</a>
+                            <p>AQI <span>(0-50) </span>- Air quality is considered satisfactory, and air pollution poses little or no risk.
+                                </p>
+                        </div>
+
+                        <div class="accordian">
+                            <a href="">Morderate</a>
+                            <p>AQI <span>(51-100) </span>- Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.</p>
+                        </div>
+
+                        <div class="accordian"> 
+                            <a href="">Unhealthy for Sensitive Groups</a>
+                            <p>AQI <span>(101-150) </span>- Members of sensitive groups may experience health effects. The general public is not likely to be affected.
+                            </p>
+                        </div>
+
+                        <div class="accordian">
+                            <a href="">Unhealthy</a>
+                            <p>AQI <span>(151-200) </span>- Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects
+                            </p>
+                        </div>
+
+                        <div class="accordian">
+                            <a href="">Very Unhealthy</a>
+                            <p>AQI <span>(201-300) </span>- Health warnings of emergency conditions. The entire population is more likely to be affected.
+                            </p>
+                        </div>
+
+                    <div class="accordian">
+                         <a href="">Hazardous</a>
+                         <p>AQI <span>(300+) </span>- Everyone may experience more serious health effects.</p>
+                    </div>
+                    </div>
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="wrap-7">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="foot"><div class="cnt"><p>Contact with us</p> </div><div class="contct"><i class="fa-brands fa-facebook"></i></div><div class="contct"><i class="fa-brands fa-instagram"></i></div><div class="contct"><i class="fa-brands fa-twitter"></i></div><div class="contct"><i class="fa-brands fa-youtube"></i></div></div>
+                    <div class="terms">
+                        <ul class="flex justify-center align-center">
+                            <li><a href="">Terms of use</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Data Vendors</a></li>
+                        </ul>
+                        <div class="addr flex justify-center align-center"><h3>Weather Forecast </h3>
+                            <p> &copy; Copyright 2022</p>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        "use strict;"
+        // current location temperature
+        
+        window.addEventListener("load",function(){
+            navigator.geolocation.getCurrentPosition(success);
+            function success(positions)
+            {
+                var lat=positions.coords.latitude;
+                var lon=positions.coords.longitude;
+                let key="c604fac4064506ff2e0ed9a28827621b";
+
+                fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&APPID=${key}`)
+                .then(i=>i.json())
+                .then(data=>     
+                {
+                    console.log(data.name);
+                    document.querySelector('.col-4').innerHTML=` ${data.name} City: ${(data.main.temp-273.15).toFixed(2)}&deg;`;
+                });
+                
+            }
+        
+        });
+      
+       
+        document.querySelector("form").addEventListener("submit",function(e){
+            e.preventDefault(e);
+            let city=document.querySelector(".city_sh").value;
+            let x=document.querySelector(".explain");
+            let y=new Date().getFullYear();
+            let m=new Date().getMonth();
+            let key="c604fac4064506ff2e0ed9a28827621b";
+           
+            
+        
+
+
+            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=f1174057e7968d649b0351cb0f0617e2`)
+            .then(i=>i.json())
+            .then(data=>{
+                // console.log(data.name);
+                // console.table(data);
+                
+                
+                document.querySelector(".wrap-3 .col-12").innerHTML=
+                `<div class="wrap-3-inner inner-p">
+                    
+                        <div class="city-name">
+                            <span>${data.name}, ${data.sys.country}</span>
+                            <span>+ ${data.timezone/3600} hours</span>
+                        </div>
+                        <div class="curr-deg">
+                            <span>${(data.main.temp-273.15).toFixed(2)}&deg;C</span>
+                            <span>Feels like : <span>${(data.main.feels_like-273.15).toFixed(2)}&deg;C</span>
+                        </div>
+                
+                    <div class="tem-div tem-div-p">
+                        
+                        <div class="tem flex">      
+                                <div class="temp">Max_Temp : <span>${(data.main.temp_max-273.15).toFixed(2)}&deg;C</span></div>   
+                                <div class="temp">Min_Temp : <span>${(data.main.temp_min-273.15).toFixed(2)}&deg;C</span></div>
+                                <div class="temp"><i class="fa-solid fa-droplet"></i>  Humidity : <span>${data.main.humidity}</span></div>
+                                <div class="temp">Pressure : <span>${data.main.pressure}</span></div>
+                                <div class="temp"><i class="fa-solid fa-eye"></i>Visibility :<span>${data.visibility/1000}km</span></div>
+                                <div class="temp"><i class="fa-solid fa-wind"></i> ws <span>${data.wind.speed}km/h</span></div>
+                                <div class="temp">Sunrise: <span>${(new Date(Number(data.sys.sunrise+"000")).toLocaleTimeString())}</span></p></div>
+                                <div class="temp">Sunset: <span>${(new Date(Number(data.sys.sunset+"000")).toLocaleTimeString())}</span></p></div>
+                                <div class="temp"><span>${data.weather[0].description}</span></div>
+                                <div class="temp"><span><img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"</span></div>
+                        
+                        </div>
+                    </div>
+               </div>`
+            })
+            
+            fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}`)
+            
+            .then(i=>i.json())
+            .then(data=>{
+                console.log(data.list.length);
+                // const dates=[];
+                // for(let i=1;i<=data.list.length;i++)
+                // {
+                   
+                //     toArray(new Date(Number(data.list[i].dt+"000")).toLocaleDateString());
+
+                // }
+                // function toArray(...dates)
+                // {
+                //     console.log(dates);
+                // }
+                for( let i=1;i<=data.list.length;i++)
+                {
+                    console.log((new Date(Number(data.list[i].dt+"000")).toLocaleDateString()));
+
+                console.log(data)   
+                document.querySelector(".wrap-4 .col-12").innerHTML+=`
+                <div class="wrap-4-inner inner-p inner-t">
+                    <h3>Date: ${data.list[i].dt_txt}</h3>
+                    
+                            
+                            <div class="tem flex">
+                                <div class="temp">Temp  <span>${(data.list[i].main.temp-273.15).toFixed(2)}&deg;C</span></div>
+                                <div class="temp">Feels Like  <span>${(data.list[i].main.feels_like-273.15).toFixed(2)}&deg;C</span></div>
+                                
+                            
+                           
+                            
+                                <div class="temp">Max-Temp<span>${(data.list[i].main.temp_max-273.15).toFixed(2)}&deg;C</span></div>
+                                <div class="temp">Min-Temp<span>${(data.list[i].main.temp_min-273.15).toFixed(2)}&deg;C</span></div>
+                                <div class="temp">Pressure  <span> ${data.list[i].main.pressure}</span></div>
+                                <div class="temp"><i class="fa-solid fa-droplet"></i> Humidity <span>${data.list[i].main.humidity}</span></div>
+                            
+                            
+                                <div class="temp"><span class="fa-solid fa-wind"></span> ws  <span>${data.list[i].wind.speed}</span></div>
+                                <div class="temp"><i class="fa-solid fa-eye"></i> Visibility <span> ${(data.list[i].visibility)/1000}km</span></div>
+                                <div class="temp">Sea-Level  <span>${data.list[i].main.sea_level}</span></div>
+                                <div class="temp">Ground-Level  <span>${data.list[i].main.grnd_level}</span></div>
+                            
+                            
+                                <div class="temp bd-none" style="line-height:70px"> ${data.list[i].weather[0].description}</div>
+                                <div class="temp bd-none"><span ><img src="http://openweathermap.org/img/wn/${data.list[i].weather[0].icon}@2x.png"></span></div>
+                            </div>
+                            
+
+                            
+                    
+                   
+                </div>`
+              }
+            
+             })
+
+
+
+
+             fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=f1174057e7968d649b0351cb0f0617e2`)
+            .then(i=>i.json())
+            .then(data=>{
+                let t= data.main.temp-273.15;
+                 t=t.toFixed(2);
+                let lat=data.coord.lat;
+                let lon=data.coord.lon;
+            
+            
+        
+            fetch(`http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=f1174057e7968d649b0351cb0f0617e2`)
+
+            .then(i=>i.json())
+            .then(data=>{
+            {
+                        
+                    document.querySelector(".wrap-5 .col-12").innerHTML=
+                    ` <div class="wrap-5-inner inner-p inner-t">
+                        
+                        
+                             <h3>Today's Air Quality of city ${city}</h3>
+                            <input type="range" min="1" max="350"  class="slider">
+
+                       
+                       
+                            <h3>All Pollutants</h3>
+                            <div class="pol flex justify-center align-center">
+                                <div class="chem"> ${data.list[0].components.co}</div>
+                                <div class="chem-name">CO (Carbon Monoxide)</div>
+                                <div class="chem">${data.list[0].components.nh3}</div>
+                                <div class="chem-name">NH<sub>3</sub> (Ammonia)</div>
+                            </div>
+                            <div class="pol flex justify-center align-center">
+                                <div class="chem">${data.list[0].components.no}</div>
+                                <div class="chem-name">NO(Nitrogen Oxide)</div>
+                                <div class="chem">${data.list[0].components.no2}</div>
+                                <div class="chem-name">NO<sub>2</sub> (Nitrogen Dioxide)</div>
+                            </div>
+                            <div class="pol flex justify-center align-center">
+                                <div class="chem">${data.list[0].components.o3}</div>
+                                <div class="chem-name">O<sub>3</sub> (Ozone)</div>
+                                <div class="chem">${data.list[0].components.pm10}</div>
+                                <div class="chem-name">PM<sub>10</sub> (Particulate matter less than 10 microns)</div>
+                            </div>
+
+                            <div class="pol flex justify-center align-center">
+                                <div class="chem"> ${data.list[0].components.pm2_5}</div>
+                                <div class="chem-name"> PM<sub>2.5</sub> (Particulate matter less than 2.5 microns)</div>
+                                <div class="chem">${data.list[0].components.so2}</div>
+                                <div class="chem-name">SO<sub>2</sub> (Sulphur Dioxide)</div>
+                            </div>
+                       
+                    </div>`
+
+                       
+              let pm10=data.list[0].components.pm10;  
+              document.querySelector(".slider").value=pm10;
+            console.log(data.list[0].components.pm10
+              );
+                       
+                       
+            };
+
+           
+        });
+
+     })
+    });
+
+    $(".accordian a").click(function(e){
+        e.preventDefault();
+        if($(this).next("p").is(":hidden")){
+          $(".accordian a").removeClass("active");
+          $(".accordian p").slideUp();
+          $(this).next("p").slideDown();
+          $(this).addClass("active")
+        }
+        // else{
+        //   $(".acc a").removeClass("active");
+        //   $(".acc p").slideUp();
+        // }
+     });
+
+     $(function(){
+     $("nav ul li a").click(function(e){
+          e.preventDefault();
+          var path=$(this).attr("href");
+          var top=$(path).offset().top;
+          $("nav ul li a").removeClass("active");
+          $(this).addClass("active");
+         
+          $("html,body").animate({
+               scrollTop:top-50
+          });
+        });
+    });
+
+   
+    
+    </script>
+    
+</body>
+</html>
